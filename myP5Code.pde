@@ -1,7 +1,7 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(35, 77, 157);
 }
 
 
@@ -11,19 +11,27 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+  stroke(0,0,0)
   // The ground
+  fill(48, 180, 72);
   rect(0, 300, 400, 100);  
 
   // The sun
+  fill(234, 199, 37);
   ellipse(80, 64, 100, 100);  
 
   // The snowman
+  fill(255,255,255);
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
-
+  //scarf
+  strokeWeight(20);
+  stroke(255,0,0);
+  line(170,155,230,155);
+  line(175,155,165,220)
+  
 }
 
 //🟡Extra FUN Features Ms. Hall Added
